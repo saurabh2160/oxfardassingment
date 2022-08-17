@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-
+//this is the schema that will store the information related to word in dblocal
 const oxfardSchema = new mongoose.Schema({
     id: {
         type: String,
